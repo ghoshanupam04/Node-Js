@@ -1,0 +1,22 @@
+**NodeJs Basic**
+
+* What is NodeJs
+->NoteJs is a Runtime enviroment for javaScript.
+
+"Rayan Dahl" Create NodeJs using 'Chrome V8 engine + c++' code and create NodeJs.
+
+JS engine in Chrome= V8 Engine 
+FireFox= Spidermonkey
+
+Using nodejs we can use js on browser and our code compiler.
+
+NodeJs is totally Js code and consept.
+
+**Install NodeJS**
+Download Link - https://nodejs.org/en/download ( LTS )
+
+**Code Compiler (VS Code)**
+Download Link - https://code.visualstudio.com/download  
+
+After download this run 'node --v' to check the current Node js Version on your machine.
+
