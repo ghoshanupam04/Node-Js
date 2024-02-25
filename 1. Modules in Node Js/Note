@@ -1,0 +1,13 @@
+**Module**
+=> In the production world a big code devided into multile folder to search and organised way, thats called Module
+or Moduler Code.
+
+After create module function and then export the file
+ex- module.exports= function name
+
+After that we can import that module with another file 
+ex- import {name}=require('./filename) 
+./ use to fetch the file.  
+use 'require' function to get the value.
+
+In nodejs there are multiple inbuilt pakcages are there.
