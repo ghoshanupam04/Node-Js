@@ -1,0 +1,24 @@
+At First we can open our terminal and write 'npm init' and fillup all that.
+We use npm because here we create the server and we can run so much time and restart so we can download this.
+
+in package.json file we can re-write some comment
+"scripts": {
+    "start": "nodemon index.js" //this is for the start 
+},
+
+And we can download Nodemon becase when we can save the server then autometacilly restart the server
+
+Here we can use http module and require that
+
+const http=require('http'); //http module required
+
+//create the server
+const Myserver=http.createServer((req,res)=>{  //response and request handlers.
+    console.log('new req resseaved');
+    res.end('hello From Server');
+})
+
+//port
+const port=8000; //port number
+Myserver.listen(port) 
+After we create server we can run on our search enngine ex- localhost:8000 
