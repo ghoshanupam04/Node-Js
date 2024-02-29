@@ -1,0 +1,19 @@
+{
+  "name": "5.-url-in-node-js",
+  "version": "1.0.0",
+  "description": "Today we are discuss about url and handling urls and create a server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "url"
+  ],
+  "author": "Anupam Ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.0",
+    "url": "^0.11.3"
+  }
+}

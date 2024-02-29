@@ -1,0 +1,14 @@
+**Url and Handling URl's in NodeJs**
+so at first we open our terminal and write 'npm init' and fill up all nd after that, 
+we can download 'nodemon', npm i nodemon.(To help when we create changes in code then the server refresh)
+
+In 'Package.json' we can change like that:
+"scripts": {
+    "start": "nodemon index.js"
+  },
+
+We can use http and file System.
+
+So when we can use url, at first Download that to use terminal 'npm i url', and require in code  like that -
+const url=require('url')
+
