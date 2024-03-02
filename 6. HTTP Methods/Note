@@ -1,0 +1,30 @@
+**HTTP Methods**
+There are 5 HTTP Methods are here -
+i> Get
+ii> Put
+iii> Patch
+iv> Push
+v> Delete
+
+i> Get Methods:
+-> When the user get some data from the server, That is Get Method.
+Ex- When we add some links on the web browser then that can create a get request. 
+
+ii>Post Method:
+-> When the user want to send and mutate the data in the server that is called Post Request.
+Ex- When we submit the form that is Post Method.
+
+iii> Put Method:
+-> When the user can put the document or photos on the server that is called Put Method.
+Ex- Image and file uploading in the webpage or server.
+
+iv> Patch Method:
+-> When user can change something on the database that is called Patch Request.
+Ex- Change phone number or Password.
+
+v> Delete Method:
+-> When the user want to delete the data on the serve that is called Delete Request.
+Ex- Delete my account and photo or document on the server.
+
+**We check all this using Postman tool**
+Download Link - https://www.postman.com/downloads/
