@@ -1,0 +1,8 @@
+**Express Js**
+Use Express framework because we create something with using not big line of code we use npm, and all tasks are very easier.
+
+**Install Express**
+open terminal and write npm i express. Express install start, after that we can check that on Package.json.
+
+**How to Uninstall Modules**
+npm uninstall module name
