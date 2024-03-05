@@ -1,0 +1,19 @@
+{
+  "name": "rest-api-and-postman",
+  "version": "1.0.0",
+  "description": "Today we can deicuss about postman nnd create a REST api and using post man we canacheck that totally.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "index",
+    "postman"
+  ],
+  "author": "Aanupam Ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}
