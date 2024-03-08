@@ -1,0 +1,15 @@
+{
+  "name": "http-status-code",
+  "version": "1.0.0",
+  "description": "Today We will Discuss Http Status Code and Create That.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js "
+  },
+  "author": "Anupam Ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}
