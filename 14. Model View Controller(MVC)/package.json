@@ -1,0 +1,16 @@
+{
+  "name": "model-view-controller",
+  "version": "1.0.0",
+  "description": "Todays Topic is Model View Controller (MVC).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Brus Wean",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "nodemon": "^3.1.0"
+  }
+}
