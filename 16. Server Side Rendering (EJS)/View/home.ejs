@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+</head>
+
+<body>
+    <h3>
+        <u><i><b style="color: red;">Short URL Maker</b></i></u>
+    </h3>
+    <% if (locals.id){ %>
+        <p><b style="color: blue;"> URl Generated :</b> http://localhost:9696/url/<%= id %> </p>
+        <% } %>
+    <div>
+        <form action="/url" method="POST">
+            <label for="text">Enter Your Original URL: </label>
+            <input type="text" name="url" placeholder="https://example.com" />
+            <button type="submit">Generate</button>
+        </form>
+    </div>
+</body>
+
+</html>
